@@ -3,7 +3,8 @@
 import asyncio
 import os
 
-from deep_research_agent import DeepResearchAgent
+## Change to relative import to avoidmodule conflict
+from .deep_research_agent import DeepResearchAgent
 
 from agentscope import logger
 from agentscope.formatter import DashScopeChatFormatter
