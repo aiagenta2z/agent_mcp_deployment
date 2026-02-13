@@ -10,12 +10,12 @@ from langchain.chat_models import init_chat_model
 from langchain_google_genai import ChatGoogleGenerativeAI
 from deepagents import create_deep_agent
 
-from research_agent.prompts import (
+from .research_agent.prompts import (
     RESEARCHER_INSTRUCTIONS,
     RESEARCH_WORKFLOW_INSTRUCTIONS,
     SUBAGENT_DELEGATION_INSTRUCTIONS,
 )
-from research_agent.tools import tavily_search, think_tool
+from .research_agent.tools import tavily_search, think_tool
 
 # Limits
 max_concurrent_research_units = 3
