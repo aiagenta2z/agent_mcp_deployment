@@ -1,0 +1,4 @@
+deepagents>=0.4.0
+langchain>=1.2.0
+langchain_google_genai>=4.2.0
+ai_agent_marketplace>=0.0.7
